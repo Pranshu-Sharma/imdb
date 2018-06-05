@@ -22,7 +22,7 @@ $('#search1').click(()=>{
     type: 'GET',
     dataType: 'json',
     async: true,
-    url: 'http://www.omdbapi.com/?apikey=145eddf2&s='+$('#title').val(),
+    url: 'https://www.omdbapi.com/?apikey=145eddf2&s='+$('#title').val(),
 
     success: (response) =>{
       console.log(response);
@@ -119,7 +119,7 @@ $('#search2').click(()=>{
     type: 'GET',
     dataType: 'json',
     async: true,
-    url: 'http://www.omdbapi.com/?apikey=145eddf2&i='+$('#imdbID').val(),
+    url: 'https://www.omdbapi.com/?apikey=145eddf2&i='+$('#imdbID').val(),
 
     success: (response) =>{
       console.log(response);
